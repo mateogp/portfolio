@@ -1,0 +1,156 @@
+.first_photo {
+	border-radius: 50%;
+	border: 4px solid #fff;
+	box-shadow: 0 0 5px #231F20;
+}
+.name {
+	font-size: 25px;
+}
+#section0 {
+    background: url("imgs/img_1.png") center center;
+    top:0;
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+}
+#section5 {
+    background: url("img/end.png") center center;
+    top:0;
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+}
+p  {
+    font-family: 'Muli', sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+#section1 {
+    transition: 1s;
+}
+#section1.white_sec {
+    background-color: #F0F2F4 !important;
+}
+#section1.black_sec {
+    background-color: #1F191A !important;
+}
+/*.section0-hover {
+    background-size: calc(180% - 100px);
+}*/
+/*#section1 {
+    background-image: url("imgs/img_2.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}*/
+.name {
+	font-family: 'Pacifico', cursive;
+	font-size: 26px;
+	color: #ededed;
+}
+/*.intro {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: blue;
+	z-index: 1;
+}*/
+.fp-controlArrow.fp-prev {
+    border-color: transparent #1cdcde transparent transparent;
+    border-width: 15px 20px 15px 0;
+    left: 50px;
+    width: 0;
+}
+.luna {
+	position: fixed;
+	right: 100px;
+	top: -100px;
+	transition: 0.5s;
+}
+.luna-active {
+	position: fixed;
+	right: 100px;
+	top: 35px;
+	transition: 0.5s;
+}
+.section h2 {
+    color: #fff;
+    font-family: "Muli",sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.section i {
+    color: #fff;
+    font-size: 12px;
+}
+.skills_items img {
+    display: inline-block;
+}
+.luna-2 {
+	position: absolute;
+	right: 100px;
+	top: 35px;
+	transition: 0.5s;
+}
+.habilidades {
+	font-family: 'Pacifico', cursive;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin-top: 30px;
+	font-size: 26px;
+    top: 20px;
+    color: #fff;
+}
+.icon_section {
+    margin-bottom: 50px;
+}
+.has_subtitle {
+    background-color: #fff;
+    height: 2px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 85px;
+    width: 100px !important;
+    transition: 1s;
+}
+.internal_title {
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 30px;
+    font-size: 26px;
+    top: 20px;
+    color: #fff;
+}
+.fp-controlArrow {
+    border-style: solid;
+    cursor: pointer;
+    height: 0;
+    margin-top: -12px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+    z-index: 4;
+}
+.fp-controlArrow.fp-next {
+    border-color: transparent transparent transparent #ee0e1e;
+    border-width: 15px 0 15px 20px;
+    right: 50px;
+}
+.fp-controlArrow {
+    border-style: solid;
+    cursor: pointer;
+    height: 0;
+    margin-top: -12px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+    z-index: 4;
+}
